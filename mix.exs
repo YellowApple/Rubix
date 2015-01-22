@@ -9,11 +9,9 @@ defmodule Rubix.Mixfile do
      package: [
        contributors: ["Ryan S. Northrup"],
        licenses: ["MIT"],
-       links: [
-         %{
-                 "GitHub" => "https://github.com/YellowApple/Rubix"
-             }
-       ],
+       links: %{
+                  "GitHub" => "https://github.com/YellowApple/Rubix"
+              },
      ],
      deps: deps]
   end
