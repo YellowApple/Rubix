@@ -5,6 +5,16 @@ defmodule Rubix.Mixfile do
     [app: :rubix,
      version: "0.0.1",
      elixir: "~> 1.0",
+     description: "A very simple (and barely-functioning) Ruby runner for Elixir",
+     package: [
+       contributors: ["Ryan S. Northrup"],
+       licenses: ["MIT"],
+       links: [
+         %{
+                 "GitHub" => "https://github.com/YellowApple/Rubix"
+             }
+       ],
+     ],
      deps: deps]
   end
 
