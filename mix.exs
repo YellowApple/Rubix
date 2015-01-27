@@ -3,7 +3,7 @@ defmodule Rubix.Mixfile do
 
   def project do
     [app: :rubix,
-     version: "0.0.1",
+     version: "0.0.2",
      elixir: "~> 1.0",
      description: "A very simple (and barely-functioning) Ruby runner for Elixir",
      package: [

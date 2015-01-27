@@ -1,4 +1,4 @@
-# Rubix
+# Rubix 0.0.2
 
 A very simple (and barely-functioning) Ruby runner for Elixir
 
