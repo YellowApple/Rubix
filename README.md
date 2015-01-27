@@ -25,10 +25,21 @@ executes Ruby (the language) and spits out a result.
 
 Note that, for obvious reasons, you'll need `ruby` installed.
 
+## Changelog
+
+### 0.0.2
+
+* Capture STDERR from spawned Ruby interpreters
+* Add a changelog
+
+### 0.0.1
+
+* First commit
+* Run Ruby code stored in strings or files (using `Rubix.eval/1` and
+  `Rubix.eval_file/1`, respectively)
+
 ## Todo
 
-* Actually implement error handling (Rubix will detect an error state,
-  but I haven't captured anything from `STDERR` yet)
 * Do something actually useful (right now there's a significant lack
   of goodies like communication with the spawned Ruby process, though
   there are supposedly better tools for that anyway)
