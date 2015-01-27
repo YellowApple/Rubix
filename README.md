@@ -2,6 +2,8 @@
 
 A very simple (and barely-functioning) Ruby runner for Elixir
 
+[Development status is on Trello.](https://trello.com/b/PTnz2ViQ/rubix)
+
 ## Synopsis
 
     iex> ruby_code = """
