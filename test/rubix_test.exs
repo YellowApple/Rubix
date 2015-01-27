@@ -10,4 +10,9 @@ defmodule RubixTest do
     result = Rubix.eval_file "test/test.rb"
     assert result == {:ok, "Hello, world!\n"}
   end
+  
+  test "Rubix.eval captures errors" do
+    result = "raise 'lol'" |> Rubix.eval
+    assert result == {:error, "-e:1:in `<main>': lol (RuntimeError)\n"}
+  end
 end
